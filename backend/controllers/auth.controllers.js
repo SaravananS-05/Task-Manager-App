@@ -8,19 +8,40 @@ const generateToken = (userId) => {
 };
 
 const registerUser = async(req,res) => {
+    try{
+
+    }
+    catch(error){
+        res.status(500).json({message: "Server Error", error: error.message});
+    }
 
 };
 
 const loginUser = async(req,res) => {
+    try{
 
+    }
+    catch(error){
+        res.status(500).json({message: "Server Error", error: error.message});
+    }
 };
 
 const getUserProfile = async(req,res) => {
+    try{
 
+    }
+    catch(error){
+        res.status(500).json({message: "Server Error", error: error.message});
+    }
 };
 
 const updateUserProfile = async(req,res) => {
+    try{
 
+    }
+    catch(error){
+        res.status(500).json({message: "Server Error", error: error.message});
+    }
 };
 
 module.exports = {registerUser,loginUser,getUserProfile,updateUserProfile};
